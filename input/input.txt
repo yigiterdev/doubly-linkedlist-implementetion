@@ -1,0 +1,31 @@
+ReversePlaylist
+PrintPlaylist	F
+PrintPlaylist	R
+PlaySong	N
+PlaySong	P
+InsertSong	H	Song_A
+InsertSong	H	Song_B
+InsertSong	H	Song_C
+InsertSong	T	Song_D
+InsertSong	T	Song_E
+InsertSong	T	Song_F
+PrintPlaylist	F
+MoveSong	B	Song_E	Song_D
+MoveSong	A	Song_B	Song_A
+PrintPlaylist	F
+RemoveSong	Song_F
+PrintPlaylist	F
+PlaySong	P
+PlaySong	P
+PlaySong	P
+PlaySong	N
+PrintPlaylist	F
+PrintPlaylist	R
+ReversePlaylist
+PrintPlaylist	F
+PrintPlaylist	R
+PlaySong	N
+PlaySong	N
+PlaySong	N
+PlaySong	P
+RemoveSong	Song_A
